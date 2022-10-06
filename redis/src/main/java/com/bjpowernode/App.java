@@ -6,7 +6,7 @@ public class App
 {
     public static void main( String[] args )
     {
-
+//crud
         Jedis jedis=new Jedis("192.168.229.129",6379);
         //删除所有db
         jedis.flushAll();
